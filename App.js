@@ -4,6 +4,7 @@ import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
 import MainScreen from './screens/MainScreen';
 import TestScreen from './screens/TestScreen';
+import ExcerciseScreen from './screens/ExcerciseScreen';
 
 
 const Stack = createStackNavigator();
