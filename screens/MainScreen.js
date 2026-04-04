@@ -5,7 +5,7 @@ import { StyleSheet, Text, View } from 'react-native';
 const MainScreen = () => {
     return(
         <View style={styles.container}>
-            <Text style={styles.textStyle}>This is main screen</Text>
+            <Text style={styles.textStyle}>This is Test Screen</Text>
         </View>
     )
 }
@@ -13,7 +13,7 @@ const MainScreen = () => {
 const styles = StyleSheet.create({
     container: {
         flex: 1,
-        backgroundColor: '#f1f1f1',
+        backgroundColor: '#ff0000',
         alignItems: 'center',
         justifyContent: 'center'
     },

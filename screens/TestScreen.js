@@ -15,10 +15,13 @@ const styles = StyleSheet.create({
         flex: 1,
         backgroundColor: '#ff0000',
         alignItems: 'center',
-        justifyContent: 'center'
+        justifyContent: 'center',
+        color: '#fff'
     },
     textStyle: {
-        fontSize: 30
+        fontSize: 30,
+        color: '#fff'
+
     }
 });
 
