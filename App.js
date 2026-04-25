@@ -1,16 +1,14 @@
 import { StatusBar } from 'expo-status-bar';
-import { StyleSheet } from 'react-native';
+import { StyleSheet, Text, View } from 'react-native';
 import { NavigationContainer } from '@react-navigation/native';
 import { createStackNavigator } from '@react-navigation/stack';
-
 import MainScreen from './screens/MainScreen';
 import ExerciseScreen from './screens/ExerciseScreen';
 import ListScreen from './screens/ListScreen';
-import CarsList from './screens/Test';
-import Studentlist from './screens/StudentScreen'; 
+import ChScreen from './screens/ChScreen';
+import ChalScreen from './screens/ChalScreen';
 import ButtonScreen from './screens/ButtonScreen';
 import MenuScreen from './screens/MenuScreen';
-
 
 const Stack = createStackNavigator();
 
