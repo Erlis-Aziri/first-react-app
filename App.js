@@ -9,6 +9,8 @@ import ListScreen from './screens/ListScreen';
 import CarsList from './screens/Test';
 import Studentlist from './screens/StudentScreen'; 
 import ButtonScreen from './screens/ButtonScreen';
+import MenuScreen from './screens/MenuScreen';
+
 
 const Stack = createStackNavigator();
 
@@ -18,7 +20,7 @@ export default function App() {
       <StatusBar style="auto" />
 
       <Stack.Navigator
-        initialRouteName="Button"
+        initialRouteName="Menu"
         screenOptions={{
           title: "Students"
         }}
@@ -28,6 +30,7 @@ export default function App() {
         <Stack.Screen name="Exercise" component={ExerciseScreen} />
         <Stack.Screen name="Test" component={CarsList} />
         <Stack.Screen name="Button" component={ButtonScreen}  />
+        <Stack.Screen name="Menu" component={MenuScreen}  />
       </Stack.Navigator>
     </NavigationContainer>
   );
